@@ -1,5 +1,4 @@
-# TextAnalyzatorENG
-
+### Text_analyzator_ENG ###
 # Pouze cvičný program na základě zadání / only a practice program based on assignment
 
 # Import knihovny pro využití sys.exit()
@@ -12,7 +11,7 @@ import re
 lem = "X" + 58 * "-" + "X"
 graf_lem = "X" + 26 * "-" + " Graf " + 26 * "-" + "X"
 
-# Přístupové údaje uživatelů
+# Přístupové údaje uživatelů (no real credentials)
 uzivatele = {
     "bob": "123", 
     "ann": "pass123", 
@@ -34,6 +33,7 @@ else:
     print("  Vstup zamítnut")
     sys.exit()
 
+# Publicly available information
 TEXTS = ['''
 Situated about 10 miles west of Kemmerer, 
 Fossil Butte is a ruggedly impressive 
