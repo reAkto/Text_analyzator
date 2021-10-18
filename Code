@@ -1,5 +1,7 @@
 # TextAnalyzatorENG
 
+# Pouze cvičný program na základě zadání / only a practice program based on assignment
+
 # Import knihovny pro využití sys.exit()
 import sys
 
@@ -23,7 +25,7 @@ print(lem)
 jmeno = input("  Zadej jméno: ")
 heslo = input("  Zadej heslo: ")
 
-# Kontrola vstupů proti "databázi" uživatelů
+# Kontrola vstupů vůči "databázi" uživatelů
 if uzivatele.get(jmeno) == heslo:
     print(lem)
     print("  Vítej v programu pro analýzu textů uživateli", jmeno)
